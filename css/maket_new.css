@@ -1,5 +1,154 @@
 body {
+
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   background-color: #f9f9f9;
+
+}
+
+main {
+  width: 77%;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.logo {
+  padding-top: 50px;
+  padding-left: 45px;
+  padding-bottom: 40px;
+
+}
+.table_headder ul {
+
+  color: white;
+  background: linear-gradient(0deg, #5d5d5d, #464545);
+  width: 92%;
+  height: 40px;
+  margin: auto;
+  padding-left: 0;
+  border-width: 2px;
+  border-color: #ededed;
+  text-align: center;
+
+}
+.table_headder li {
+  display: table-cell;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  padding-left: 24px;
+  /!965-145-100-160-560/
+}
+li.li1 {
+  text-align: left;
+  width: 15%;
+
+}
+
+li.li2 {
+  width: 10%;
+  padding-right: 24px;
+}
+li.li4 {
+  width:inherit;
+  text-align: left;
+
+}
+
+li.li3 {
+  padding-right: 45px;
+  padding-left: 45px;
+}
+
+
+.table_headder li:hover {
+
+ background: linear-gradient(0deg, #494949, #313131);
+ border-right: 2px solid #5d5d5d;
+ border-left: 2px solid #5d5d5d;
+
+}
+
+div.frame {
+  width: 92%;
+  margin: auto;
+}
+
+
+ul {
+  list-style-position: inside;
+  list-style-type: none;
+}
+.menu ul {
+  margin-right: 0;
+  padding-top: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+
+
+}
+ .menu li.m  {
+   margin: 0;
+  display: table;
+  border: 2px solid #ededed;
+  width: 218px;
+  padding-left: 22px;
+  font-size: 12px;
+  color: #acacac;
+  text-align: left;
+  padding-top: 12px;
+  height: 28px;
+  border-bottom: 0px;
+
+}
+.menu li.m:hover {
+  background-color: #f9f9f9;
+  color: #2c2c2c;
+  padding-left: 35px;
+  width: 205px;
+
+}
+.menu li.n {
+  border-bottom: 2px solid #ededed;
+
+}
+div.bike {
+  margin: 0;
+  width: 500px;
+  position: relative;
+
+}
+.bike img {
+  margin: 0;
+  border: 2px solid #ededed;
+  padding-right: 8%;
+  padding-left: 8%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 420px;
+  margin-right: 0;
+  display: inline-block;
+
+
+}
+p {
+  margin: 0;
+  width: 63%;
+  line-height: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+div.menu {
+  display: inline-block;
+  position: static;
+
+}
+
+.footer li {
+display: table-cell;
+
 }
