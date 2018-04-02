@@ -21,7 +21,7 @@ main {
 
 .logo {
   padding-top: 50px;
-  padding-left: 47px;
+  padding-left: 50px;
   padding-bottom: 40px;
 
 }
@@ -142,17 +142,14 @@ div.bike {
   border: 2px solid #ededed;
   padding: 45px 88px 45px 88px;
   display: inline-block;
-
-
-
-
 }
+
 p {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 45px;
   line-height: 2em;
   padding: 40px 25px 60px 25px;
-  width: 629px;
+  width: 622px;
 
 }
 
@@ -162,15 +159,16 @@ div.menu {
 
 }
 div.footer {
-  width: 92%;
+  width: 90.45%;
   margin: auto;
   height: 40px;
 }
 
 .footer ul {
   height: 40px;
+  background-color: #e1e1e1;
 }
-.footer li{
+.footer li {
   display:inline-block;
   height: 40px;
   margin: auto;
@@ -178,6 +176,7 @@ div.footer {
   vertical-align: middle;
   font-size: 14px;
   padding-left: 24px;
-  background-color: #e1e1e1;
+  color: #2c2c2c;
+
 
 }
