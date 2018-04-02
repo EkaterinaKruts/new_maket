@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  height: 950px;
+
   width: 77%;
   margin: auto;
   background-color: #ffffff;
@@ -21,7 +21,7 @@ main {
 
 .logo {
   padding-top: 50px;
-  padding-left: 45px;
+  padding-left: 47px;
   padding-bottom: 40px;
 
 }
@@ -29,7 +29,7 @@ main {
 
   color: white;
   background: linear-gradient(0deg, #5d5d5d, #464545);
-  width: 92%;
+  width: 90.45%;
   height: 40px;
   margin: auto;
   padding-left: 0;
@@ -46,7 +46,7 @@ main {
   vertical-align: middle;
   font-size: 14px;
   padding-left: 24px;
-  /!965-145-100-160-560/
+
 }
 li.li1 {
   text-align: left;
@@ -79,7 +79,7 @@ li.li3 {
 }
 
 div.frame {
-  width: 92%;
+  width: 90.45%;
   margin: auto;
 }
 
@@ -88,11 +88,16 @@ ul {
   list-style-position: inside;
   list-style-type: none;
 }
-.menu ul {
+div.menu {
+  display: inline-block;
+  margin: 40px 0 0 0;
   float: left;
+}
+.menu ul {
+
   width: 240px;
+  height: 240px;
   margin-right: 0;
-  padding-top: 40px;
   padding-left: 0px;
   padding-right: 0px;
 
@@ -101,15 +106,15 @@ ul {
 }
  .menu li.m  {
    margin: 0;
-  display: table;
+
   border: 2px solid #ededed;
-  width: 218px;
+  width: 214px;
   padding-left: 22px;
   font-size: 12px;
   color: #acacac;
   text-align: left;
   padding-top: 12px;
-  height: 28px;
+  height: 26px;
   border-bottom: 0px;
 
 }
@@ -117,7 +122,7 @@ ul {
   background-color: #f9f9f9;
   color: #2c2c2c;
   padding-left: 35px;
-  width: 205px;
+  width: 201px;
 
 }
 .menu li.n {
@@ -125,24 +130,29 @@ ul {
 
 }
 div.bike {
-  float: right;
-  position: relative;
+  width: 722px;
+  display: inline-block;
+  margin-left: 40px;
+
 
 }
 .bike img {
-  margin: 40px 0 0 0;
+  width: 499px;
+  margin: 40px 0 0 45px;
   border: 2px solid #ededed;
-  padding: 45px 90px 45px 90px;
-  margin-right: 0;
+  padding: 45px 88px 45px 88px;
   display: inline-block;
+
+
 
 
 }
 p {
+  display: inline-block;
   margin: 0;
-  line-height: 1,5em;
+  line-height: 2em;
   padding: 40px 25px 60px 25px;
-  width: 625px;
+  width: 629px;
 
 }
 
@@ -161,7 +171,7 @@ div.footer {
   height: 40px;
 }
 .footer li{
-  display: table-cell;
+  display:inline-block;
   height: 40px;
   margin: auto;
   text-align: center;
