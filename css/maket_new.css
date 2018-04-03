@@ -45,7 +45,7 @@ main {
   margin: auto;
   text-align: center;
   vertical-align: middle;
-  font-size: 14px;
+  font-size: 11pt;
   padding-left: 24px;
 
 }
@@ -117,6 +117,7 @@ div.menu {
   padding-top: 12px;
   height: 26px;
   border-bottom: 0px;
+  font-size: 10pt;
 
 }
 .menu li.m:hover {
@@ -147,6 +148,7 @@ div.bike {
 }
 
 p {
+  font-size: 10pt;
   display: inline-block;
   margin: 0;
   line-height: 2em;
@@ -179,10 +181,13 @@ div.footer ul {
   height: 29px;
   text-align: center;
   vertical-align: middle;
-  font-size: 14px;
+  font-size: 10pt;
 
   padding-top: 11px;
   color: #2c2c2c;
+}
+div.footer li:hover {
+  text-decoration: underline;
 }
 
 li.footer_1 {
