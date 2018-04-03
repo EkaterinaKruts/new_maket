@@ -162,7 +162,7 @@ div.menu {
 
 }
 div.footer {
-  width: 90.45%;
+  width: 966px;
   margin: auto;
   height: 40px;
   padding-bottom: 60px;
@@ -180,10 +180,30 @@ div.footer ul {
   text-align: center;
   vertical-align: middle;
   font-size: 14px;
-  padding-left: 24px;
+
   padding-top: 11px;
   color: #2c2c2c;
+}
 
-
-
+li.footer_1 {
+  width: 115px;
+  text-align: left;
+  padding-left: 25px;
+}
+li.footer_2 {
+  text-align: center;
+  width: 100px;
+}
+li.footer_3 {
+  text-align: center;
+  width: 150px;
+}
+li.footer_4 {
+  text-align: center;
+  width: 150px;
+}
+li.footer_5 {
+  text-align: right;
+  padding-right: 20px;
+  width: 393px;
 }
