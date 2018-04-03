@@ -7,13 +7,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   background-color: #f9f9f9;
+  width: 1366px;
 
 
 }
 
 main {
 
-  width: 77%;
+  width: 1060px;
   margin: auto;
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
@@ -21,7 +22,7 @@ main {
 
 .logo {
   padding-top: 50px;
-  padding-left: 50px;
+  padding-left: 45px;
   padding-bottom: 40px;
 
 }
@@ -29,7 +30,7 @@ main {
 
   color: white;
   background: linear-gradient(0deg, #5d5d5d, #464545);
-  width: 90.45%;
+  width: 966px;
   height: 40px;
   margin: auto;
   padding-left: 0;
@@ -79,7 +80,7 @@ li.li3 {
 }
 
 div.frame {
-  width: 90.45%;
+  width: 966px;
   margin: auto;
 }
 
@@ -130,26 +131,28 @@ div.menu {
 
 }
 div.bike {
-  width: 722px;
+  width: 724px;
   display: inline-block;
-  margin-left: 40px;
+
 
 
 }
 .bike img {
-  width: 499px;
-  margin: 40px 0 0 45px;
+  width: 500px;
+  margin: 40px 45px 0 48px;
   border: 2px solid #ededed;
   padding: 45px 88px 45px 88px;
   display: inline-block;
+
 }
 
 p {
   display: inline-block;
-  margin: 0 0 0 45px;
+  margin: 0;
   line-height: 2em;
   padding: 40px 25px 60px 25px;
-  width: 622px;
+  width: 626px;
+  margin-left: 48px;
 
 }
 
@@ -162,21 +165,25 @@ div.footer {
   width: 90.45%;
   margin: auto;
   height: 40px;
+  padding-bottom: 60px;
 }
 
-.footer ul {
+div.footer ul {
   height: 40px;
+  width: 966px;
   background-color: #e1e1e1;
+  vertical-align: middle;
 }
 .footer li {
   display:inline-block;
-  height: 40px;
-  margin: auto;
+  height: 29px;
   text-align: center;
   vertical-align: middle;
   font-size: 14px;
   padding-left: 24px;
+  padding-top: 11px;
   color: #2c2c2c;
+
 
 
 }
